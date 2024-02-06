@@ -1,0 +1,209 @@
+*{
+    font-family: 'Merriweather', serif;  
+}
+body {
+    margin-inline: 18%;
+    padding: 0;
+    background-color: rgb(204, 216, 224);
+}
+
+.container {
+    background-color: #009270;
+    display: flex;
+    height: 48px;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 14px;
+}
+
+
+.box a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.white a {
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-left: auto;
+    outline: none;
+    font-size: medium;
+}
+
+.nav {
+    background-color: rgb(43, 40, 40);
+    display: flex;
+    justify-content: space-around;
+    height: 34px;
+    align-items: center;
+}
+
+h3{
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+}
+
+.opt {
+    font-size: smaller;
+    padding: 8px;
+}
+
+.opt:hover {
+    background-color: rgb(25, 24, 24);
+}
+
+.opt a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.location{
+    display:flex;
+    align-items: center;
+}
+
+.info{
+    margin-right: 25px;
+}
+
+.info a {
+     text-decoration: none;
+     color:rgb(44, 38, 38)
+}
+.info p {
+    font-size: smaller;
+}
+.main{
+    padding-inline-start: 12px;
+    padding-inline-end: 5px;
+    background-color: white;
+    height: fit-content;
+}
+
+.menu{
+     display:flex;
+     justify-content: start;
+     padding-block-end: 6px;
+    border-bottom: 1px solid black;
+}
+.link a{
+      text-decoration: none;
+      color:rgb(38, 37, 37);
+      font-size: smaller;
+}
+.link{
+      margin-right: 24px;
+}
+.link a:hover{
+    color:rgb(53, 68, 48);
+    font-weight: 600;
+    border-bottom: 2px solid green;
+}
+.p1{
+    padding-bottom: 2px;
+}
+.main_container{
+    display: flex;
+    align-items: center;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;
+}
+.link div a{
+     text-decoration: none;
+     color:rgb(180, 64, 182);
+     font-weight: 700;
+}
+
+.link{
+      display: flex;
+      justify-content: space-between;
+}
+.one {
+    grid-column: span 8; /* span 8 columns */
+    text-align: justify;
+}
+
+.two {
+    grid-column: span 4; /* span 4 columns */
+    text-align: justify;
+    padding-inline: 12px !important;
+}
+
+.side a img {
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* total of 12 parts */
+    gap: 10px; /* adjust the gap as needed */
+}
+.side_button{
+    text-align: center;
+}
+
+.side p {
+    position: absolute;
+    /* top: -71px; */
+    /* top: 10px; */
+    color: white;
+    color: aliceblue;
+    bottom: -7px;
+
+}
+
+.side{
+    margin-top: 4px;
+    position: relative;
+}
+
+.side_button button a {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.down{
+    width: 100%;
+    height: 90ppx;
+    display: flex;
+}
+
+.commentry{
+    display:flex;
+    justify-content: center;
+    padding-left: 4px;
+}
+
+.commentry div {
+    padding-top: 15px;
+    margin-right: 17px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+ th,td{
+    background-color: rgb(154, 167, 167);
+    padding: 5px 10px;
+ } 
+
+ 

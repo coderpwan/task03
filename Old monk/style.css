@@ -1,0 +1,29 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+        background-color:black;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.navbar div ul{
+        display:flex;
+        list-style: none;
+        margin-left: 144px;
+        padding-left: 260px;
+        
+}
+.navbar div ul li{
+    margin-right: 44px;
+    color: white;
+}
+
+.corn i{
+      
+     margin: 14px;
+     color:white;
+}

@@ -1,0 +1,16 @@
+body {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3D%2522water%2Bpollution%2522&psig=AOvVaw3h39-RPEn1rQvi4syCBY4O&ust=1705288759268000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKC7g_H124MDFQAAAAAdAAAAABAE');
+}
+
+p {
+    color: purple;
+}
+
+#check {
+    width: 100px;
+    height: 100px;
+}
+
+.non {
+    text-decoration: none !important;
+}

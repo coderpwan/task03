@@ -1,0 +1,48 @@
+.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(46, 130, 42);
+      height: 46px;
+      width: 100%;
+      padding-inline: 10px;
+      border: 4px solid white;
+}
+
+body {
+      background-image: url(./grunge-black-concrete-textured-background_53876-124541.avif);
+}
+
+.nav1 a {
+      text-decoration: none;
+      color: white;
+}
+
+.search_icon{
+      top: 1px;
+      position: absolute;
+      right: 1px;
+      background: black;
+      color: antiquewhite;
+      padding: 4px 13px;
+      font-size: 11px;
+  }
+.nav1 input {
+      text-decoration: none;
+      color: rgb(16, 16, 16);
+      border: none;
+      outline: none;
+      position: absolute;
+      left:50%;
+
+}
+
+select {
+      border: none;
+      border-bottom: 2px solid white;
+      background-color: rgb(46, 130, 42);
+      color: white;
+      outline: transparent;
+
+
+}

@@ -1,0 +1,242 @@
+*{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+}
+
+.nav {
+
+    height: 60;
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 26px;
+}
+
+.sec2 img {
+    padding: 2px
+}
+
+.sec2 button {
+    padding: 8px;
+    padding-inline: 20px;
+    background-color: rgb(51, 197, 51);
+    color: white;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.heading1 {
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-inline: 182px;
+    justify-content: space-between;
+}
+
+.right ul {
+    display: flex;
+    align-items: center;
+}
+
+.right ul li {
+    list-style: none;
+    margin-inline: 18px;  
+    
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ .right ul li a:hover{
+    border-bottom: 2px solid red;
+}
+
+.corn {
+    display: flex;
+}
+
+.heading2 {
+    height: 650px;
+    background: linear-gradient(#646de6, #4a0b55);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.box2 img {
+    border: 1px solid transparent;
+    border-radius: 20px 100px 20px 20px;
+    width: 540px;
+    height: 530px;
+
+}
+
+.box1 button{
+    background-color: #ffd064;
+    padding-block: 15px;
+    padding-inline:44px;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: 400px;
+}
+
+.heading3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: -64px;
+}
+.box{
+    width: 316px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid rgb(94, 18, 156);
+}
+
+.box_content{
+    text-align: center;
+    padding-block: 31px;
+}
+
+.heading4 { 
+    text-align: center; 
+    height: 48px;
+    width: auto;
+    padding-bottom: 90px;
+
+} 
+
+.marq { 
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+} 
+
+.mar img{
+    width: 171px;
+    height: 45;
+    margin-left: 52px;
+} 
+
+.heading5 {
+    height: 650px;
+    background: linear-gradient(#c6c6c8, #56604d);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding:30px 95px 30px 95px;
+}
+
+.block2 img {
+    border: 1px solid transparent;
+    border-radius: 20px 100px 20px 20px;
+    width: 540px;
+    height: 530px;
+}
+
+.block1 button{
+    background-color: #ffd064;
+    padding-block: 15px;
+    padding-inline:44px;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: 400px;
+}
+
+.heading6{
+    height: 220px;
+    background-color: white !important;
+    text-align: center;
+
+}
+
+.first{
+    display: flex;
+    padding-inline: 122px;
+
+}
+.add1,.add2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first .img img{
+    padding-top: 26px;
+    padding-right: 10px;
+}
+
+.first .data h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    margin-block: 17px;
+
+}
+
+.first .data p {
+   text-align: justify;
+   color: white;
+}
+.heading7 button{
+    
+        background-color: #ffd064;
+        padding-block: 15px;
+        padding-inline:44px;
+        border-radius: 8px;
+        font-size: larger;
+        font-weight: 400px;
+}
+
+.heading7{
+    text-align: center;
+    background-image: radial-gradient(circle at bottom right,#34218d 0,#34218d 20%,#3432a8 20%,#3432a8 40%,#3444c3 40%,#3444c3 60%,#3455dd 60%,#3455dd 80%,#3466f8 80%,#3466f8 100%);
+    background-size: cover;
+    
+}
+.heading8{
+    text-align: center;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img{
+    width: 258px;
+    height: 302px;
+    margin-inline: 20px;
+    border-radius: 12px;
+}
+.lg{
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+
+
